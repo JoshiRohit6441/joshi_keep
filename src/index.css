@@ -85,3 +85,61 @@ button {
     text-shadow: 4px 4px 5px black;
     line-height: 55px;
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 767px) {
+
+    .main_body,
+    .main_body1 {
+        width: 80%;
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .content {
+        font-size: 20px;
+    }
+
+    .btn {
+        height: 50px;
+    }
+
+    button {
+        margin-left: 240px;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mainDiv {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .btn {
+        height: 40px;
+    }
+
+    button {
+        margin-left: 210px;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+    }
+}
