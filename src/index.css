@@ -188,3 +188,61 @@ button {
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+
+    .main_body,
+    .main_body1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .content {
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .btn {
+        height: 20px;
+    }
+
+    button {
+        margin-left: 130px;
+        height: 10px;
+        width: 10px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+
+    .main_body,
+    .main_body1 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .content {
+        font-size: 8px;
+        height: 20px;
+    }
+
+    .btn {
+        height: 15px;
+    }
+
+    button {
+        margin-left: 100px;
+        height: 8px;
+        width: 8px;
+        font-size: 6px;
+    }
+}
