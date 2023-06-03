@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/joshi_keep/static/css/main.b37be179.css",
+    "main.js": "/joshi_keep/static/js/main.4de1c553.js",
+    "index.html": "/joshi_keep/index.html",
+    "main.b37be179.css.map": "/joshi_keep/static/css/main.b37be179.css.map",
+    "main.4de1c553.js.map": "/joshi_keep/static/js/main.4de1c553.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b37be179.css",
+    "static/js/main.4de1c553.js"
+  ]
+}
